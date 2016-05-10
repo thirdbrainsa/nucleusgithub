@@ -1,7 +1,26 @@
 <?php
-//print_r($_GET);
+/**
+  * @This script insert the orders in the DB in the table tradedb
+  * Details of variable sent with GET method
+  * cmd = 0 or 1 ( 0=BUY. 1=SELL)
+  * Instrument = Instrument
+  * takeprofit = take profit if the trade, it's the price level
+  * stoploss = stop lose, it's the price - level
+  * swap = amout of swap (in USD)
+  * openprice = price level when trade was opened
+  * timeopen = When the trade was opened in GMT+2
+  * spread = what spread was used inside the MT4
+  * strategy = what strategy was playing (the name of the strategy is setup inside the parameter of the OrderSender.Mq4 in the Metatrader 4).
+  * @Becarefull security are not set for LIVE PRODUCTION then DON't USE in LIVE PRODUCTION MODE.
 
+*/
+// take the timestamp
 $time=time();
+// We build an unique signature for the trade received. 
+// This unique signature is very important because this signature will be used in all scripts later and will be used to recognized the trade among others.
+// you can have for the same couple strategy/instrument only 2 trades at the same second : one in BUY and one in SELL (Long/Short).
+// MD5 is used as the method to transform a string to an unique string of 32 caracters. it's the best method to produce this kind of keys.
+
 $signature=md5($_GET['strategy'].$_GET['timeopen'].$_GET['instrument'].$_GET['cmd']);
 print_r($_GET);
 if ($_GET['cmd']<2)
@@ -91,6 +110,7 @@ if ($ID=="")
   //$SQL_PURGE_1="UPDATE tradedb set command=99 where whenopen < NOW() - INTERVAL 1 WEEK";
   //@mysql_query($SQL_PURGE_1);
   
+  // Manage purge system automatically
   $SQL_PURGE_2="DELETE from tradedb where whenopen < NOW() - INTERVAL 16 WEEK";
   @mysql_query($SQL_PURGE_2);
   //
@@ -100,6 +120,7 @@ if ($ID=="")
   
   // CALL THE CRON.PHP
   $_CRON="ORDER";
+  // Send the data to the "populator" which will fill the journal of each trading account.
   include("cron-populate-direct.php");
   
 }

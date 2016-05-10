@@ -70,7 +70,7 @@ string nucleus_url="http://localhost/nucleusgithub/injectordb/receive-order-mql.
            int    vspread = MarketInfo(instrument,MODE_SPREAD);
 string nucleus_url_global=nucleus_url+"?cmd="+cmd+"&instrument="+instrument+"&takeprofit="+takeprofit+"&stoploss="+stoploss+"&swap="+swap+"&openprice="+orderOpenPrice+"&timeopen="+timeOpen+"&profit="+profit+"&vpoint="+vpoint+"&digit="+vdigits+"&spread="+vspread+"&strategy="+strategy;
            
-          //Print (nucleus_url_global);
+         Print (nucleus_url_global);
            res=WebRequest("GET",nucleus_url_global,cookie,NULL,timeout,post,0,result,headers);
 //--- Checking errors
           /*
