@@ -5,7 +5,7 @@ This version allows you to go really beyond all what you can see in open source 
 
 The open source project is now carried by Duvivier Inc, an US CORP which will take to next level the code.
 
-Pierre Jean Duvivie is the Lead Developer, the COO of ThirdBrain SA and the CEO of Duvivier Inc. 
+Pierre Jean Duvivier is the Lead Developer, the COO of ThirdBrain SA and the CEO of Duvivier Inc. 
 
 The code is under Creative Common License with Attribution Rights. 
 Licensees may copy, distribute, display and perform the work and make derivative works and remixes based on it only if they give the author or licensor the credits (attribution) in the manner specified by these.
