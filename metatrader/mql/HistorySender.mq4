@@ -42,7 +42,7 @@ void OnTick()
 //--- to enable access to the server, you should add URL "https://www.google.com/finance"
 //--- in the list of allowed URLs (Main Menu->Tools->Options, tab "Expert Advisors"):
 // DEV TEST HERE
-string nucleus_url="[YOUR URL OF ORDERCOLLECTORs]/receive-history-mql.php";
+string nucleus_url="http://localhost/nucleusgithub/injectordb//receive-history-mql.php";
 //--- Reset the last error code
    ResetLastError();
 //--- Loading a html page from Google Finance
