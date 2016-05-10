@@ -1,0 +1,54 @@
+table {
+  font-family: "Helvetica Neue", Helvetica, sans-serif
+}
+
+caption {
+  text-align: left;
+  color: silver;
+  font-weight: bold;
+  #text-transform: uppercase;
+  padding: 5px;
+}
+
+thead {
+  background: WhiteSmoke;
+  color: black;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+tbody tr:nth-child(even) {
+  background: white;
+}
+
+tbody tr td:nth-child(2) {
+  text-align:center;
+}
+tbody tr td:nth-child(1),
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(5),
+tbody tr td:nth-child(6),
+tbody tr td:nth-child(7),
+tbody tr td:nth-child(8),
+tbody tr td:nth-child(9),
+tbody tr td:nth-child(10),
+tbody tr td:nth-child(11),
+tbody tr td:nth-child(12),
+tbody tr td:nth-child(4) {
+  text-align: center;
+  font-family: monospace;
+}
+
+tfoot {
+  background: SeaGreen;
+  color: white;
+  text-align: right;
+}
+
+tfoot tr th:last-child {
+  font-family: monospace;
+}

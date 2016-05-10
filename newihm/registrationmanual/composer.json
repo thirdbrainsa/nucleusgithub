@@ -1,0 +1,6 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "@stable",
+        "mustache/mustache": "@stable"
+    }
+}

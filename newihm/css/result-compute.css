@@ -1,0 +1,116 @@
+#test .arc2 {
+            stroke-weight:0.1;
+            fill: #3660b0;
+        }
+
+        #outer {
+            background:#FFFFFF;
+            border-radius: 5px;
+            color: #000;
+        }
+
+        #div1, #div2, #div3, #div4, #div5,#div6,#div7,#div8,#div9,#div10{
+            width: 20%;
+            height: 150px;
+            box-sizing: border-box;
+            float: left;
+        }
+		 #div6,#div7,#div8,#div9,#div10{
+            width: 20%;
+            height:90px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        #div1 .arc {
+            stroke-weight: 0.1;
+            fill: #00ff48;
+        }
+
+        #div2 .arc {
+            stroke-weight: 0.1;
+            fill: #25db7b;
+        }
+
+        #div3 .arc {
+            stroke-weight: 0.1;
+            fill: #29d85a;
+        }
+	
+	#div4 .arc {
+            stroke-weight: 0.1;
+            fill: #39c661;
+        }
+	
+	#div5 .arc {
+            stroke-weight: 0.1;
+            fill: #4e9d64;
+        }
+	#div6 .arc {
+            stroke-weight: 0.1;
+            fill: #f0b8b8;
+        }
+
+        #div7 .arc {
+            stroke-weight: 0.1;
+            fill: #f08888;
+        }
+
+        #div8 .arc {
+            stroke-weight: 0.1;
+            fill: #dd5353;
+        }
+	
+	#div9 .arc {
+            stroke-weight: 0.1;
+            fill: #c73333;
+        }
+	
+	#div10 .arc {
+            stroke-weight: 0.1;
+            fill: #af0909;
+        }
+
+
+        .selectedRadial {
+            border-radius: 3px;
+            background: #f4f4f4;
+            color: #000;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            border: 1px solid rgba(200,200,200,0.85);
+        }
+
+        .radial {
+            border-radius: 3px;
+            background: #FFFFFF;
+            color: #000;
+
+        }
+	
+	div#titlerisk
+{
+float: non; 
+width: 250px; 
+height: 20px;
+border: 1px solid #d8d8d8; 
+background: #f9f9f9; 
+font-style: normal;
+font-size: 14px;
+font-family: verdana,helvetica,arial,sans-serif;
+color: black;
+text-align: center;
+margin-top: 5px;
+
+	
+	
+}
+div#explain
+{
+float: fixed; 
+width:952px; 
+height: 30px;
+
+	
+	
+}

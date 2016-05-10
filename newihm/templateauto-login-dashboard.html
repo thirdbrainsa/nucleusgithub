@@ -1,0 +1,29 @@
+<center><img src='thirdbrainfx-big.png' height=150></center>
+
+ <form method="post"  class="login" action="index-login-dashboard.php">
+    <p>
+      <label for="login">Account :</label>
+      <input type="text" name="login" id="userId" value="<?php if (isset($_POST['login'])) {echo $_POST['login'];} ?>">
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" value="<?php if (isset($_POST['password'])) {echo $_POST['password'];} ?>">
+      <input type='hidden' name='dashboard' value='yes'>
+    </p>
+
+  <div align=center>
+      <input type="submit" class="login-button2" id="login-btn"></button>
+</div>
+<div align=center id='error'>
+</div> </form> 
+<div> You need a valid xStation account number (live or demo). If you don't have it, you can create a demo one by click on <a href='https://www.thirdbrainfx.com/registration/register.php' class='large green button'> Open a demo </a></div>
+<div>If you have an <b>FXCM account</b> and/or <b>FXDD account</b>, you can also receive our signals for 79 USD / month. Just click on the <a href='http://www.thirdbrainfx.com/access-our-vip-unique-forex-strategies' target=_new><u>FXCM/FXDD logo to start the process</u></a> to link your account to our signals. We can switch you and you can pay after, no problem. For this part, we accept only LIVE account.</div>
+<center><a href='http://www.thirdbrainfx.com/access-our-vip-unique-forex-strategies' target=_new><img src='https://www.thirdbrainfx.com/banner-fxdd-fxcm-thirdbrainfx.jpg'></a></center>
+ 
+
+
+
+
+
+

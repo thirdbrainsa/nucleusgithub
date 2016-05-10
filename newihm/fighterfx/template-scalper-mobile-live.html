@@ -1,0 +1,46 @@
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr align=center>
+<td colspan=3><a href='../iframe-graph.php?pay=1&guide=99' class="large green button">ADD FUNDS !</a> <div id='stop' class="large red button" onclick="stopandclose()">STOP & CLOSE</div><div id='stoponly2' onclick="stoponly()" class="large red button">STOP ONLY</div></td>
+</tr>
+<tr>
+<td colspan=3>
+<table width=100% id="ctable"  cellpadding=0 cellspacing=0 border=0>
+<tr><td align=center onclick='setTrend("buy")' colspan=3><div id='buy'>BUY</div></td></tr>
+<tr><td align=center><div id="Ask" ></div><div id='cask'></div></tr>
+<tr><td align=center><div id="scurrent"></div><div id="spread"></div></td></tr>
+<tr><td align=center onclick='setTrend("sell")'><div id='sell'>SELL</div></td></tr>
+<tr><td align=center><div id="Bid"></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr><td align=center><div id='accountcredit'>Balance</div></td><td><div id="Balance"></div></td></tr>
+<tr><td align=center><div id='accountcredit'>Equity</div></td><td><div id='Equity'></div></td></tr>
+<tr><td align=center><div id='accountcredit'>Free</div></td><td><div id='Free'></div></td></tr>
+<tr><td align=center><div id='pe'>%E</div></td><td><div id='Gain'></div></td></tr>
+<tr><td align=center><div id='pg'>%G</div></td><td><div id='aGain'></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3><div id='warning' align=center></div></td>
+</tr>
+<tr>
+<td align=center>
+<div id=position>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan=3><div id=status  align=center></div></td></tr>
+<tr><td colspan=3><div id='sGain'><?php echo $_REQUEST['start'] ?></div></td></tr>
+</table>
+<span id="liveclock" style="position:absolute;left:0;top:20;">
+</span><div id='cbid'></div><div id='cask'></div><div id='advicebuy'></div><div id='advicesell'></div>

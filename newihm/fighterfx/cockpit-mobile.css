@@ -1,0 +1,128 @@
+div#Bid {
+	font-size:18pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+background-color:white;
+	}
+div#Ask {
+	font-size:18pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+background-color:white;
+	}
+div#sell {
+	font-size:72pt;
+font-family:times new roman;
+font-weight:bold;
+border: 0px dashed #000000;
+color:#201e1d;
+
+	}
+	div#buy {
+	font-size:72pt;
+font-family:times new roman;
+font-weight:bold;
+border: 0px dashed #000000;
+color:#201e1d;
+	}
+	
+		div#accountcredit {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#Balance {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#Equity {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#Free {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#risk {
+	font-size:12pt;
+font-family:times new roman;
+font-weight:bold;
+border: 1px dashed #000000;
+color:#787777;
+	}
+	div#status {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#afb1b3;
+	}
+	div#blank {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#ffffff;
+	}
+		div#scurrent {
+	font-size:12pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#stopandclose {
+	font-size:12pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	div#spread {
+	font-size:8pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+	
+	div#position {
+		margin-left: auto;
+  margin-right: auto;
+			font-size:8pt;
+font-family:times new roman;
+font-weight:bold;
+color:#787777;
+	}
+form {
+ background-color:#f7f6f6;
+ padding:10px;
+ }
+fieldset {
+ border:0px solid #DF3F3F;
+ }
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+div#login-btn {
+	font-size:10pt;
+font-family:times new roman;
+font-weight:bold;
+color:#afb1b3;
+	}	
+	
+	
+	

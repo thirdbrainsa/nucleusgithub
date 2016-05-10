@@ -1,0 +1,53 @@
+<?php
+if (isset($_GET['login'])) {
+
+ $login=$_GET['login'];
+ if (isset($_GET['password'])) {$password=$_GET['password'];}
+ if (strlen($login)>7) { exit;}
+ $login=strip_tags(trim($login));
+ $login=str_replace(",","",$login);
+ $login=str_replace("(","",$login);
+ $password=strip_tags(trim($password));
+}
+else
+{
+$login="";$password="";
+}
+?>
+<center><img src='thirdbrainfx-big.png' height=150></center>
+
+ <form method="post"  class="login" action="index-login-dashboard.php">
+    <p>
+      <label for="login">Account :</label>
+      <input type="text" name="login" id="userId" value="<?php  echo $login; ?>">
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" value="<?php echo $password; ?>">
+      <input type='hidden' name='dashboard' value='yes'>
+      <?php
+ if (isset($_SESSION['partner']))
+{ 
+     ?>
+      <input type='hidden' name='partner' value='<?php if (isset($_SESSION['partner'])) { echo $_SESSION['partner'];} else { echo "";} ?>'>
+    <?php
+   } 
+    ?>
+    </p>
+
+  <div align=center>
+      <input type="submit" class="login-button2" id="login-btn"></button>
+</div>
+<div align=center id='error'>
+</div> </form> 
+<div>To use the full dashboard with nucleus, you need a valid xStation account number with real money active, to get a live account with us, just <a href='http://www.thirdbrainfx.com/live-dashboard' class='large green button'> Sign up </a></div>
+<div>If you have an <b>FXCM account</b> and/or <b>FXDD account</b>, you can also receive our signals. Just click on the <a href='http://www.thirdbrainfx.com/access-our-vip-unique-forex-strategies' target=_new><u>FXCM/FXDD logo to start the process</u></a> to link your account to our signals. We can switch you and you can pay after, no problem. For this part, we accept only LIVE account.</div>
+<center><a href='http://www.thirdbrainfx.com/access-our-vip-unique-forex-strategies' target=_new><img src='https://www.thirdbrainfx.com/banner-fxdd-fxcm-thirdbrainfx.jpg'></a></center>
+ 
+
+
+
+
+
+

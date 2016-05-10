@@ -1,0 +1,67 @@
+{
+ "name": "Forex",
+   "children": [
+    {
+     "name": "MAJOR",
+     "children": [
+      {"name": "EURUSD", "size": 15000},
+      {"name": "USDJPY", "size": 15000},
+      {"name": "USDCHF", "size": 15000},
+      {"name": "GBPUSD", "size": 15000}
+       ]
+    },
+    {
+     "name": "MINOR",
+      "children": [
+      {"name": "AUDUSD", "size": 15000},
+      {"name": "EURCHF", "size": 15000},
+      {"name": "EURJPY", "size": 15000},
+      {"name": "NZDUSD", "size": 15000},
+      {"name": "USDCAD", "size": 15000},
+      {"name": "EURGBP", "size": 15000},
+      {"name": "GBPJPY", "size": 15000},
+      {"name": "GBPCHF", "size": 15000},
+      {"name": "AUDNZD", "size": 15000},
+      {"name": "AUDJPY", "size": 15000},
+      {"name": "EURNZD", "size": 15000},
+      {"name": "GBPCAD", "size": 15000},
+      {"name": "EURAUD", "size": 15000},
+      {"name": "GBPAUD", "size": 15000},
+      {"name": "NZDJPY", "size": 15000},
+      {"name": "NZDCAD", "size": 15000},
+      {"name": "USDSEK", "size": 15000},
+      {"name": "EURNOK", "size": 15000},
+      {"name": "GBPNZD", "size": 15000},
+      {"name": "AUDCAD", "size": 15000},
+      {"name": "EURCAD", "size": 15000},
+      {"name": "CADJPY", "size": 15000},
+      {"name": "CADCHF", "size": 15000},
+      {"name": "USDNOK", "size": 15000},
+      {"name": "AUDCHF", "size": 15000}
+         ]
+    },
+    {
+     "name": "EMERGEANT",
+      "children": [
+      {"name": "EURSEK", "size": 15000},
+      {"name": "CHFJPY", "size": 15000},
+       {"name": "EURCZK", "size": 15000},
+      {"name": "USDTRY", "size": 15000},
+      {"name": "USDPLN", "size": 15000},
+      {"name": "USDCZK", "size": 15000},
+      {"name": "GBPPLN", "size": 15000},
+      {"name": "EURRON", "size": 15000},
+      {"name": "USDZAR", "size": 15000},
+      {"name": "CHFHUF", "size": 15000},
+      {"name": "EURHUF", "size": 15000},
+      {"name": "USDRON", "size": 15000},
+      {"name": "USDHUF", "size": 15000},
+      {"name": "EURPLN", "size": 15000},
+      {"name": "USDCLP", "size": 15000},
+      {"name": "CHFPLN", "size": 15000},
+      {"name": "EURTRY", "size": 15000},
+       {"name": "USDMXN", "size": 15000}
+     ]
+  }
+  ]
+  }

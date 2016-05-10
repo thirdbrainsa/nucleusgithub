@@ -1,0 +1,5 @@
+<FilesMatch "(register|confirm)\.php">
+    Allow from all
+</FilesMatch>
+
+Deny from all

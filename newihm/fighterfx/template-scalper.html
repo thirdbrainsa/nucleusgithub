@@ -1,0 +1,41 @@
+<span id="liveclock" style="position:absolute;left:0;top:20;">
+</span>
+<table width=950 cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td><table width=950 id = "ctable"  cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td align=center></td><td></td><td align=center></td></tr>
+<tr>
+<td align=center></td><td></td><td align=center></td></tr>
+<tr><td align=center onclick='setTrend("sell")'><div id='sell'>SELL</div><div id='advicesell'></div></td><td align=center onclick="stopandclose()"><div id="scurrent"></div><div id='stopandclose'>STOP + CLOSE</div></td><td align=center onclick='setTrend("buy")'><div id='buy'>BUY</div><div id='advicebuy'></div></td></tr>
+<tr><td align=center onclick="javascript:openSell();"><div id="Bid"></div><div id='cbid'></div></td><td align=center><div id='stoponly2' onclick="stoponly()">STOP ONLY</div><div id="spread"></div></td><td align=center onclick="javascript:openBuy();"><div id="Ask" ></div><div id='cask'></div></td></tr>
+
+
+</table>
+<table width=950 cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td align=center></td></tr>
+<td></tr><td>
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr><td colspan=3>
+<table width=100%>
+<tr><td align=center><div id='accountcredit'>Balance</div></td><td><div id="Balance"></div></td><td align=center><div id='accountcredit'>Equity</div></td><td><div id='Equity'></div></td><td align=center><div id='accountcredit'>Free</div></td><td><div id='Free'></div></td><td><div id='pe'>%E</div></td><td><div id='Gain'></div></td><td> <div id='pg'>%G</div></td><td><div id='aGain'></div></td></tr></table>
+
+<tr>
+<td colspan=3><div id='warning' align=center></div></td>
+</tr>
+<tr>
+<td align=center>
+<div id=position>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan=3><div id=status  align=center></div></td></tr>
+<tr><td colspan=3><div id='sGain'><?php echo $_REQUEST['start'] ?></div></td></tr>
+</table>
