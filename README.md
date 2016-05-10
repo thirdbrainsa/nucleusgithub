@@ -23,4 +23,10 @@ This framework helps you to :
 
 4 - Allow website to display using rich interface (jQuery) in 2D or 3D (with Three.js) the trades sent by the Robo-Advisor(s). There is an unlimited of strategies which can run.
 
-5 - Please see the system requirement to run all this stuff : Php, Mysql , better 2 linux server : one for the https:// and one for the DB. The DB receiver need to be in Lighttpd or NGinx. Apache is fine for the frontend
+5 - Please see the system requirement to run all this stuff : Php, Mysql , better 2 linux server : one for the https:// and one for the DB. The DB receiver need to be in Lighttpd or NGinx. Apache is fine for the frontend.
+
+6 - get PHP bridges for : xAPI, Tradency (Mirror Trader)
+
+The framework is already running with live client in closed mode since 2014. We will step by step release all the part of this very complex system which bring us success with ThirdBrain SA.
+
+The first step will be the Injector (send the MT4 orders to the Mysql DB) and the display (you can see on the website https://www.thirdbrainfx.com). 
