@@ -17,7 +17,7 @@ This framework helps you to :
 1 - Send the order from your any MT4 (metatrader 4) to an MYSQL DB : it could be manual trading or automatic trading. No matter. ThirdBrain Sa run up to 50 MT4 sessions on many instruments sending the orders you can check here :
  https://www.thirdbrainfx.com (with our brokerage tools with xOpenHub) or inside the Mirror Trader with FXCM or FXDD as brokers
 
-2 - Allow client to buld their portfolio and replicate on their account (with xOPenhub/xaPI) or inside the tool (in B-BOOK mode) the trades coming from the robo-advisor selected.
+2 - Allow client to build their portfolio and replicate on their account (with xOPenhub/xaPI) or inside the tool (in B-BOOK mode) the trades coming from the robo-advisor selected.
 
 3 - Manage 1'500 instruments for Forex to Equities following the same ranking system (only with A-BOOK with xAPI for equities).
 
