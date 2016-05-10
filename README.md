@@ -30,3 +30,5 @@ This framework helps you to :
 The framework is already running with live client in closed mode since 2014. We will step by step release all the part of this very complex system which bring us success with ThirdBrain SA.
 
 The first step will be the Injector (send the MT4 orders to the Mysql DB) and the display (you can see on the website https://www.thirdbrainfx.com). 
+
+Warning : this version is a version without security embedded to allow educationnal lessons managing the security aspect - which is huge - a part because there is system aspect to understand before and a mix between settings in the code (not present in this GitHub Version) and Linux securisation of servers. All will be developed in direct coach courses. Then don't use this version "live" if you don't have any experience related to security matter because there is a lot of fix to apply to switch live.
