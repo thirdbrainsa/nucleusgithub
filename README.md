@@ -34,6 +34,6 @@ The first step will be the Injector (send the MT4 orders to the Mysql DB) and th
 Warning : this version is a version without security embedded to allow educationnal lessons managing the security aspect - which is huge - a part because there is system aspect to understand before and a mix between settings in the code (not present in this GitHub Version) and Linux securisation of servers. All will be developed in direct coach courses. Then don't use this version "live" if you don't have any experience related to security matter because there is a lot of fix to apply to switch live.
 
 Go directly to the WIKI :
-https://github.com/thirdbrainsa/nucleusgithub/wiki/Home-----First-Step(s)---Receive-signals-from-Metatrader-4,-display-the-signals-on-website.
+https://github.com/thirdbrainsa/nucleusgithub/wiki
 
 To start after downloaded the code.
