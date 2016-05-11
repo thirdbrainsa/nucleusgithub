@@ -14,8 +14,8 @@ Then please send an email to pierre@duvivier.xyz to allow any commercial use of 
 
 This framework helps you to :
 
-1 - Send the order from your any MT4 (metatrader 4) to an MYSQL DB : it could be manual trading or automatic trading. No matter. ThirdBrain Sa run up to 50 MT4 sessions on many instruments sending the orders you can check here :
- https://www.thirdbrainfx.com (with our brokerage tools with xOpenHub) or inside the Mirror Trader with FXCM or FXDD as brokers
+1 - Send the order and history from any MT4 (metatrader 4) to an MYSQL DB : it could be manual trading or automatic trading. No matter. ThirdBrain Sa run up to 50 MT4 sessions on many instruments sending the orders you can check here :
+ https://www.thirdbrainfx.com (with our brokerage tools with xOpenHub) or inside the Mirror Trader with FXCM or FXDD as brokers. Orders are sent by the MT4, injected in a DB and displayed on the front office website, first. (what you can see on our website https://www.thirdbrainfx.com)
 
 2 - Allow client to build their portfolio and replicate on their account (with xOPenhub/xaPI) or inside the tool (in B-BOOK mode) the trades coming from the robo-advisor selected.
 
