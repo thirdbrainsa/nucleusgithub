@@ -3,14 +3,27 @@ This project is the open source version of ThirdBrainFx's project run by ThirdBr
 
 This version allows you to go really beyond all what you can see in open source with link between Metatrader 4 <> xAPI <> Php <> Mysql based on LAMPP stacks.
 
+Basic description of Nucleus (on GitHub) : 
+This first version do basically : 
+
+1 - Take your trading orders (BUY/SELL/CLOSE) (Pending Orders are not taken) under any Metatrader 4 hosted anywhere from any brokers and display them in a webpage.
+2 - Filter this order via the portfolio of a trader/user (composed of a couple strategy(robo-advisor)/instrument and send them to his trading account respecting rules and risk management fixed by the users.
+
+In this GITHUB version, you don't have for the moment :
+3 - All the cron needed in backoffice to compute correlation, CFD advices, DB cleaning ect..
+4 - The Daemon who parse the journal of orders to send to each account (using xAPI of xopenhub you can see with XTB broker) which is running in a screen in daemon
+
 The open source project is now carried by Duvivier Inc, an US CORP which will take to next level the code.
 
 Pierre Jean Duvivier is the Lead Developer, the COO of ThirdBrain SA and the CEO of Duvivier Inc. 
 
 The code is under Creative Common License with Attribution Rights. 
+
 Licensees may copy, distribute, display and perform the work and make derivative works and remixes based on it only if they give the author or licensor the credits (attribution) in the manner specified by these.
 
-Then please send an email to pierre@duvivier.xyz to allow any commercial use of this scripts.
+Then please send an email to pierre@duvivier.xyz to allow any commercial use of this scripts or any proposal to help.
+
+Advanced description.
 
 This framework helps you to :
 
