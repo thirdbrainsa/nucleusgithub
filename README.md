@@ -7,10 +7,13 @@ Basic description of Nucleus (on GitHub) :
 This first version do basically : 
 
 1 - Take your trading orders (BUY/SELL/CLOSE) (Pending Orders are not taken) under any Metatrader 4 hosted anywhere from any brokers and display them in a webpage.
+
 2 - Filter this order via the portfolio of a trader/user (composed of a couple strategy(robo-advisor)/instrument and send them to his trading account respecting rules and risk management fixed by the users.
 
 In this GITHUB version, you don't have for the moment :
+
 3 - All the cron needed in backoffice to compute correlation, CFD advices, DB cleaning ect..
+
 4 - The Daemon who parse the journal of orders to send to each account (using xAPI of xopenhub you can see with XTB broker) which is running in a screen in daemon
 
 The open source project is now carried by Duvivier Inc, an US CORP which will take to next level the code.
